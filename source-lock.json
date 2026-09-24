@@ -1,7 +1,7 @@
 {
   "format": "revealline-archive-originals.v2",
-  "archiveId": "archive-67",
-  "repository": "mekhovov/revealline-archive-67",
+  "archiveId": "archive-68",
+  "repository": "mekhovov/revealline-archive-68",
   "sourceRepository": "mekhovov/revealline",
   "toolingCommit": "30530b3436a1a9737be93f67f308587f89b2f8bc",
   "extractorPath": "publishing/pages-controller/extract-current.py",
@@ -9,20 +9,20 @@
   "budgetBytes": 800000000,
   "releases": [
     {
-      "version": "v0.98.0",
-      "sourceRevision": "1168c02f5fb62056936878fe7d3c4e2e0afb0732",
-      "sourceTree": "f0b9d3d3afd5daa113f03f86a53ac6f3b18a7b92",
-      "tagObject": "d60ca331711292161aaa055b14dda771299617c7",
-      "distributionSha256": "94b3dfb29f480a1fafe25ab25ece2ebf612d39713a213113e7693934fa662d90",
-      "distributionBytes": 596302098,
+      "version": "v0.101.0",
+      "sourceRevision": "bdd14f5913b4ca64f2fa82f942d22c0dd725a8aa",
+      "sourceTree": "5d280c6f0d33beaa015458695611d09cb16c4208",
+      "tagObject": "8825d8c21fbb8f26c53d6b59f08cf77e16e7c3ed",
+      "distributionSha256": "ac8377186ee4d619d13b83316e806a0ea74e6896c9a6c90424fe7001a90e1b10",
+      "distributionBytes": 596325113,
       "metadata": {
-        "release.json": "b3e6df49aa735aaf3a96f95506c4111fea35890ba3907839425ff28d9b4bfb87",
-        "manifest.json": "b756e76d4abf8669651ac0755ab2749f028708d1375e74c2221f77209fc436cf",
-        "distribution.zip.sha256": "cd863352d4bfef86ba905b74ea8f633152451b85d68985b931e978c1e9062dc0"
+        "release.json": "95a7f59d7bb1b271f9dc3d065c1f3814ae607d930eb2b23d1d51cb5574840864",
+        "manifest.json": "340aa2333f078994d0505ebf19c39af9cc9e43693a0843e76a39c15db145c07a",
+        "distribution.zip.sha256": "918ad8cbae00c0cde3d48e5382defd8c952a756aa4d06ad5dc8208b373d3b6d7"
       },
       "sourceQualification": {
-        "bytes": 14585,
-        "sha256": "365de9a4231a9f4700fd8b6a969c382fbab14c181b59583b7c9be5a29eccdd9d",
+        "bytes": 14423,
+        "sha256": "b77e302396e058256634c38519f82d74f1e89b847306c46c619b38a2b88b17bf",
         "policyEvidence": {
           "path": "publishing/test-policy.json",
           "bytes": 490,
@@ -31,7 +31,7 @@
       }
     }
   ],
-  "expectedInventorySha256": "bf86b6977540ed8f26ad5d3494e7040708a9543ac263ea0be8010a2e13e0ac39",
-  "expectedFiles": 1132,
-  "expectedBytes": 596127742
+  "expectedInventorySha256": "c59fb91809bf58d97c36ed44a6a69f95925102548b505cea84ec2a7ad39588a3",
+  "expectedFiles": 1133,
+  "expectedBytes": 596150433
 }

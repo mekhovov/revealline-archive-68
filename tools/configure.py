@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Build Archive67's exact v0.98.0 source lock and finite inventory.
+"""Build Archive68's exact v0.101.0 source lock and finite inventory.
 
 All identities are read from the separately reviewed input-authority.json.  This
-file intentionally contains no Archive66 or v0.97.0 release constants.
+file intentionally contains no Archive67 or v0.98.0 release constants.
 """
 import argparse
 import hashlib

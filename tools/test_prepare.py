@@ -233,20 +233,20 @@ class CohortTests(unittest.TestCase):
 class CommittedMetadataTests(unittest.TestCase):
     def test_exact_original_metadata_and_source_qualification(self):
         lock, inventory = locked_inputs(ROOT)
-        self.assertEqual((lock['expectedFiles'], lock['expectedBytes']), (1132, 596127742))
-        self.assertEqual([r['version'] for r in lock['releases']], ['v0.98.0'])
-        self.assertEqual(inventory['base'], 'https://mekhovov.github.io/revealline-archive-67/')
+        self.assertEqual((lock['expectedFiles'], lock['expectedBytes']), (1133, 596150433))
+        self.assertEqual([r['version'] for r in lock['releases']], ['v0.101.0'])
+        self.assertEqual(inventory['base'], 'https://mekhovov.github.io/revealline-archive-68/')
         release = lock['releases'][0]
-        self.assertEqual(release['tagObject'], 'd60ca331711292161aaa055b14dda771299617c7')
-        self.assertEqual(release['sourceRevision'], '1168c02f5fb62056936878fe7d3c4e2e0afb0732')
-        self.assertEqual(release['sourceTree'], 'f0b9d3d3afd5daa113f03f86a53ac6f3b18a7b92')
+        self.assertEqual(release['tagObject'], '8825d8c21fbb8f26c53d6b59f08cf77e16e7c3ed')
+        self.assertEqual(release['sourceRevision'], 'bdd14f5913b4ca64f2fa82f942d22c0dd725a8aa')
+        self.assertEqual(release['sourceTree'], '5d280c6f0d33beaa015458695611d09cb16c4208')
         self.assertEqual(release['sourceQualification'], {
-            'bytes': 14585,
-            'sha256': '365de9a4231a9f4700fd8b6a969c382fbab14c181b59583b7c9be5a29eccdd9d',
+            'bytes': 14423,
+            'sha256': 'b77e302396e058256634c38519f82d74f1e89b847306c46c619b38a2b88b17bf',
             'policyEvidence': {'path': 'publishing/test-policy.json', 'bytes': 490, 'sha256': 'b6887ba7f2b84a007b96de14fc867ac38ac8135d7c231c7ade7ebc52ba31704a'},
         })
-        cohort = [r for r in inventory['files'] if r['path'].startswith('releases/v0.98.0/')]
-        self.assertEqual((len(cohort), sum(r['bytes'] for r in cohort)), (1129, 596126348))
+        cohort = [r for r in inventory['files'] if r['path'].startswith('releases/v0.101.0/')]
+        self.assertEqual((len(cohort), sum(r['bytes'] for r in cohort)), (1130, 596149036))
 
     def test_changed_or_wrong_identity_qualification_refuses(self):
         import shutil
