@@ -1,0 +1,54 @@
+{
+  "format": "revealline-archive-scaffold-input.v2",
+  "archive": {
+    "id": "archive-68",
+    "repository": "mekhovov/revealline-archive-68",
+    "donorRepository": "mekhovov/revealline-archive-67",
+    "donorCommit": "8b59eeee4d57e35629259ad29c40993c5780f8f4",
+    "donorTree": "0c068d842e5a582df97a77997cf6ea39b93b49f9",
+    "toolingCommit": "30530b3436a1a9737be93f67f308587f89b2f8bc",
+    "extractorPath": "publishing/pages-controller/extract-current.py",
+    "extractorSha256": "38081b1791b49cb7328d18b4d4325c2876bb3bc8d7db03f4610f8d8a7c4bf91b",
+    "budgetBytes": 800000000
+  },
+  "donor": {
+    "commit": "8b59eeee4d57e35629259ad29c40993c5780f8f4",
+    "tree": "0c068d842e5a582df97a77997cf6ea39b93b49f9"
+  },
+  "preservedRelease": {
+    "version": "v0.101.0",
+    "releaseId": 395873001,
+    "sourceRevision": "bdd14f5913b4ca64f2fa82f942d22c0dd725a8aa",
+    "sourceTree": "5d280c6f0d33beaa015458695611d09cb16c4208",
+    "tagObject": "8825d8c21fbb8f26c53d6b59f08cf77e16e7c3ed",
+    "publishedAt": "2026-09-24T16:35:22Z",
+    "assets": [
+      {"id": 586362194, "name": "distribution.zip", "bytes": 596325113, "sha256": "ac8377186ee4d619d13b83316e806a0ea74e6896c9a6c90424fe7001a90e1b10"},
+      {"id": 586357031, "name": "distribution.zip.sha256", "bytes": 83, "sha256": "918ad8cbae00c0cde3d48e5382defd8c952a756aa4d06ad5dc8208b373d3b6d7"},
+      {"id": 586357028, "name": "manifest.json", "bytes": 205460, "sha256": "340aa2333f078994d0505ebf19c39af9cc9e43693a0843e76a39c15db145c07a"},
+      {"id": 586357027, "name": "qualification-evidence-record.json", "bytes": 1989, "sha256": "7fed6ec7796186e4a8a0e6e7bcc6252babc10ad1610052a65473950597f944bf"},
+      {"id": 586357026, "name": "release.json", "bytes": 468, "sha256": "95a7f59d7bb1b271f9dc3d065c1f3814ae607d930eb2b23d1d51cb5574840864"},
+      {"id": 586357032, "name": "source-qualification-evidence.zip", "bytes": 330823, "sha256": "2ebcc1b9ef9feee3eb6146f0d5ccc38c1ad7dabe67093a0ba6460246ea1fa48f"},
+      {"id": 586357043, "name": "source-qualification.json", "bytes": 14423, "sha256": "b77e302396e058256634c38519f82d74f1e89b847306c46c619b38a2b88b17bf"},
+      {"id": 586361292, "name": "source.tar", "bytes": 1682176000, "sha256": "453707060f6e39072e7757ee81d029f0dd0666f0d85420fc80693c0de8ae7fc8"},
+      {"id": 586357048, "name": "verification.json", "bytes": 1919, "sha256": "c18cece011524fc882ab2ecbb4a0c2d8a589641322a36c32a48411af73ac82d3"}
+    ],
+    "policyEvidence": {
+      "path": "publishing/test-policy.json",
+      "bytes": 490,
+      "sha256": "b6887ba7f2b84a007b96de14fc867ac38ac8135d7c231c7ade7ebc52ba31704a"
+    }
+  },
+  "priorArchiveAcceptance": {
+    "acceptedPaths": 0,
+    "status": "NOT_DEPLOYED",
+    "scope": "New archive; no public-byte or native acceptance is claimed."
+  },
+  "projection": {
+    "manifestFiles": 1125,
+    "manifestBytes": 595928549,
+    "expectedFiles": 1133,
+    "expectedBytes": 596150433
+  },
+  "sourceInput": {"path": "input-authority.json"}
+}
